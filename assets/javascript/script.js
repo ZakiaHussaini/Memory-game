@@ -1,51 +1,51 @@
 const cardArray = [
     {
         name: 'dall',
-        img: '../images/dall.PNG'
+        img: 'assets/images/dall.PNG'
     },
     {
         name: 'flower',
-        img: '../images/flower.PNG'
+        img: 'assets/images/flower.PNG'
     },
     {
         name: 'forg',
-        img: '../images/forg.PNG'
+        img: 'assets/images/forg.PNG'
     },
     {
         name: 'fox',
-        img: '../images/fox.PNG'
+        img: 'assets/images/fox.PNG'
     } ,
     {
          name: 'hen',
-         img: '../images/hen.PNG',
+         img: 'assets/images/hen.PNG',
     },
     {
         name: 'horse',
-        img: '../images/horse.PNG'
+        img: 'assets/images/horse.PNG'
     },
     {
         name: 'dall',
-        img: '../images/dall.PNG'
+        img: 'assets/images/dall.PNG'
     },
     {
         name: 'flower',
-        img: '../images/flower.PNG'
+        img: 'assets/images/flower.PNG'
     },
     {
         name: 'forg',
-        img: '../images/forg.PNG'
+        img: 'assets/images/forg.PNG'
     },
     {
         name: 'fox',
-        img: '../images/fox.PNG'
+        img: 'assets/images/fox.PNG'
     } ,
     {
          name: 'hen',
-         img: '../images/hen.PNG',
+         img: 'assets/images/hen.PNG',
     },
     {
         name: 'horse',
-        img: '../images/horse.PNG'
+        img: 'assets/images/horse.PNG'
     }
 ]
 
@@ -63,7 +63,7 @@ let cardWon = [];
 function createBoard () {
 for(let i = 0; i<cardArray.length; i++){
     const card = document.createElement('img');
-    card.setAttribute('src','../images/q.PNG');
+    card.setAttribute('src','assets/images/q.PNG');
  
   
     card.setAttribute('data-id',i);
@@ -81,8 +81,8 @@ function checkMatch () {
     -
     console.log('check for match');
     if(optionOneId == optionTwoId ){
-        cards[optionOneId].setAttribute('src','../images/q.PNG');
-        cards[optionTwoId].setAttribute('src','../images/q.PNG');
+        cards[optionOneId].setAttribute('src','assets/images/q.PNG');
+        cards[optionTwoId].setAttribute('src','assets/images/q.PNG');
         alert('you have clicked the same image!')
     }
 
@@ -97,8 +97,8 @@ function checkMatch () {
         cardWon.push(cardChosen);
     } 
     else {
-        cards[optionOneId].setAttribute('src', '../images/q.PNG');
-        cards[optionTwoId].setAttribute('src','../images/q.PNG');
+        cards[optionOneId].setAttribute('src', 'assets/images/q.PNG');
+        cards[optionTwoId].setAttribute('src','assets/images/q.PNG');
         alert('sorry, try again!');
     }
 
