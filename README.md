@@ -32,4 +32,10 @@ this header clearly tells the user what game they playing and how much score the
 
     ![Responsive lighthouse image](/assets/images/report.JPG)
 
+# Validator Testing
+- JavaScript 
+  - No errors were returned when passing through the https://jshint.com/
+
+- HTML
+   - No errors were found when passing through the Official  [Nu Html Checker](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fzakiahussaini.github.io%2FMemory-game%2Findex.html).
 

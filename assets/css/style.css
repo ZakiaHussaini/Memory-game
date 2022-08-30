@@ -47,7 +47,7 @@ h3 {
     grid-gap: 1px;  
     grid-auto-rows: minmax(100px, auto); 
     cursor: pointer;
-    transition: 0.3 all ease;
+    transition: all 0.3s ease;
 }
 
 img {
@@ -58,7 +58,7 @@ img {
 
 img:hover {
     transform: scale(1.04);
-    transition: 0.3 all ease;
+    transition: all 0.3s ease;
     border: 2px solid rgb(223, 139, 30);
 }
 
@@ -113,7 +113,7 @@ img:hover {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1px;  
         cursor: pointer;
-        transition: 0.3 all ease;
+        transition: all 0.3s ease;
     }
 
     img {
