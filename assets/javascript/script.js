@@ -47,7 +47,7 @@ const cardArray = [
         name: 'horse',
         img: 'assets/images/horse.PNG'
     }
-]
+];
 
 cardArray.sort(() => 0.5 - Math.random());
 
@@ -79,7 +79,7 @@ function checkMatch () {
     if(optionOneId == optionTwoId ){
         cards[optionOneId].setAttribute('src','assets/images/q.PNG');
         cards[optionTwoId].setAttribute('src','assets/images/q.PNG');
-        alert('you have clicked the same image!')
+        alert('you have clicked the same image!');
     }
 
      if(cardChosen[0] == cardChosen[1]){
