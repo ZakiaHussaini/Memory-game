@@ -62,6 +62,7 @@ function createBoard () {
 for(let i = 0; i<cardArray.length; i++){
     const card = document.createElement('img');
     card.setAttribute('src','assets/images/q.PNG');
+    card.setAttribute('alt','sticker image')
     card.setAttribute('data-id',i);
     card.addEventListener('click', flipCard);
     gridDisplay.appendChild(card);
