@@ -39,3 +39,23 @@ this header clearly tells the user what game they playing and how much score the
 - HTML
    - No errors were found when passing through the Official  [Nu Html Checker](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fzakiahussaini.github.io%2FMemory-game%2Findex.html).
 
+- CSS 
+  - No errers found when passing through the Official [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fzakiahussaini.github.io%2FMemory-game%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+
+
+## Deployment 
+
+- navigate to www.github.com and login.
+- navigate to the projects Github repository.
+- click on the settings button at the top right corner of the repository.
+- select pages from the left hand side menue.
+- for the source, select branch: Master and click save.
+- the webpage will refresh automatically diaplaying a message at the top of the ribbon stating "Your site is publish at (https://zakiahussaini.github.io/Memory-game/) ".
+
+## Credits
+
+### Media 
+
+the photo used on the home, about and classes section are from [istockphoto.com](https://www.istockphoto.com/) .
+
+
